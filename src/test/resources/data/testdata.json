@@ -1,0 +1,21 @@
+{
+  "valid_login_TC01": {
+    "userid": "admin",
+    "password": "admin"
+  },
+  "Invalid_login_TC02": {
+     "userid": "admin12",
+     "password": "afsaf"
+  },
+  "create_leads_TC03": {
+  "userid": "admin",
+  "password": "admin",
+  "firstName": "Narendra",
+  "LastName": "Modi",
+  "Company": "India"
+  },
+  "create_multiple_leads_TC04": {
+  "userid": "admin",
+  "password": "admin"  
+  }
+}
