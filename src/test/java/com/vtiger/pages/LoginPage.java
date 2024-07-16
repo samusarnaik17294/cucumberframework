@@ -50,7 +50,7 @@ public class LoginPage extends PageActions {
 	
 	
 	
-	@FindBy(xpath="//*[contains(text(),'123You must specify a valid username and password.')]")
+	@FindBy(xpath="//*[contains(text(),'You must specify a valid username and password.')]")
 	WebElement err_msg; 
 	
 	@FindBy(name="login_theme")
