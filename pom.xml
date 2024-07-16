@@ -79,7 +79,7 @@
                 <version>3.0.0-M5</version> <!-- Adjust version as needed -->
                 <configuration>
                     <includes>
-                        <include>**/*Test.java</include>
+                        <include>**/*TestRunner.java</include>
                     </includes>
                     <argLine>-Dcucumber.options="--plugin json:target/cucumber-report.json"</argLine>
                 </configuration>
