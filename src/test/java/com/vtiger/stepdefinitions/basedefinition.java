@@ -60,8 +60,16 @@ public class basedefinition {
 	
 	public void launchApp() throws IOException, FilloException
 	{
+		String brw = System.getProperty("browser");
+		String env = System.getProperty("Env");
+		System.out.println(brw+"    "+env);
+
 		readproperties();
-		if(prop.getProperty("browser").equalsIgnoreCase("chrome"))
+		if(System.getProperty("browser").equals("Chrome"))
+		{
+			driver = new ChromeDriver();
+		}
+		else if(prop.getProperty("browser").equalsIgnoreCase("chrome"))
 		{
 			driver = new ChromeDriver();
 		}
